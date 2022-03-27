@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Author: Praveen Bhogade
+# Date Created: 27/03/2022
+# Last Modified: 27/03/2022
+
+# Description
+# Prints "This is my first script" to the terminal
+
+# Usage
+# My_First_Script
+
+echo "This is my first script"
+exit 0
