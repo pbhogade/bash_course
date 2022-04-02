@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Author: Praveen Bhogade
+# Date Created: 28/03/2022
+# Last Modified: 28/03/2022
+
+# Description
+# This script should backup all the files in your home directory and save them all in a .tar archive. 
+
+# Usage
+# backup of home directory however this can be altered and can be used to take a backup of dir.
+
+tar -cvf ~/bash_course/my_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/* 2>/dev/null
+exit 0
